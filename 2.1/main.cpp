@@ -27,9 +27,9 @@ void check(const wstring& Text, const wstring& key, const bool destructCipherTex
 
 int main()
 {
-    check(L"student",L"dmitriy");
-    check(L"dmitriy",L"");
-    check(L"dmitriy",L"student123");
-    check(L"d m i t r i y",L"STUDENT");
+    check(L"student",L"alexey");
+    check(L"alexey",L"");
+    check(L"alexey",L"student123");
+    check(L"a l e x e y",L"STUDENT");
     check(L"123",L"STUDENT");
 }
